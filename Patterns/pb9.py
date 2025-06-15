@@ -1,11 +1,21 @@
 def sol(a):
-    for i in range(0,a):
+    for i in range(0,a-1):
      #space 
       for j in range(0,a-i-1):
          print(" ",end="")
       for j in range (0,2*i+1):
             print("*",end="")
       for j in range (0,a-i-1):
+               print(" ",end="")
+     #star
+      print("\n")
+    for i in range(0,a):
+     #space 
+      for j in range(0,i):
+         print(" ",end="")
+      for j in range (0,2*a-(2*i+1)):
+            print("*",end="")
+      for j in range (0,i):
                print(" ",end="")
      #star
       print("\n")
